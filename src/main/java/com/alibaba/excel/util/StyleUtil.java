@@ -16,19 +16,20 @@ public class StyleUtil {
      */
     public static CellStyle buildDefaultCellStyle(Workbook workbook) {
         CellStyle newCellStyle = workbook.createCellStyle();
-      /*  Font font = workbook.createFont();
+        Font font = workbook.createFont();
         font.setFontName("宋体");
         font.setFontHeightInPoints((short)14);
-        font.setBold(true);
+        font.setBold(false);
         newCellStyle.setFont(font);
         newCellStyle.setWrapText(true);
         newCellStyle.setVerticalAlignment(VerticalAlignment.CENTER);
         newCellStyle.setAlignment(HorizontalAlignment.CENTER);
         newCellStyle.setLocked(true);
         newCellStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
-        newCellStyle.setFillForegroundColor(IndexedColors.GREY_25_PERCENT.getIndex());
-        newCellStyle.setBorderBottom(BorderStyle.THIN);
-        newCellStyle.setBorderLeft(BorderStyle.THIN);*/
+        newCellStyle.setFillForegroundColor(IndexedColors.WHITE.getIndex());
+        newCellStyle.setBorderBottom(BorderStyle.NONE);
+        newCellStyle.setBorderRight(BorderStyle.NONE);
+        newCellStyle.setBorderLeft(BorderStyle.NONE);
         return newCellStyle;
     }
 
