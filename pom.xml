@@ -24,7 +24,7 @@
         <url>https://github.com/alibaba/easyexcel</url>
         <connection>scm:git:https://git@github.com/alibaba/easyexcel.git</connection>
     </scm>
-
+<!-- -Dgpg.skip -->
     <!--<repositories>-->
         <!--<repository>-->
             <!--<id>local-file</id>-->
