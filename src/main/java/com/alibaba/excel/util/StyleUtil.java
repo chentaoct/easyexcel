@@ -27,10 +27,10 @@ public class StyleUtil {
         newCellStyle.setLocked(true);
         newCellStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
         newCellStyle.setFillForegroundColor(IndexedColors.WHITE.getIndex());
-        newCellStyle.setBorderBottom(BorderStyle.NONE);
-        newCellStyle.setBorderTop(BorderStyle.NONE);
-        newCellStyle.setBorderRight(BorderStyle.NONE);
-        newCellStyle.setBorderLeft(BorderStyle.NONE);
+        newCellStyle.setBorderBottom(BorderStyle.THIN);
+        newCellStyle.setBorderTop(BorderStyle.THIN);
+        newCellStyle.setBorderRight(BorderStyle.THIN);
+        newCellStyle.setBorderLeft(BorderStyle.THIN);
         return newCellStyle;
     }
 
