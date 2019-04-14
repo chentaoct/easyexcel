@@ -28,6 +28,7 @@ public class StyleUtil {
         newCellStyle.setFillPattern(FillPatternType.SOLID_FOREGROUND);
         newCellStyle.setFillForegroundColor(IndexedColors.WHITE.getIndex());
         newCellStyle.setBorderBottom(BorderStyle.NONE);
+        newCellStyle.setBorderTop(BorderStyle.NONE);
         newCellStyle.setBorderRight(BorderStyle.NONE);
         newCellStyle.setBorderLeft(BorderStyle.NONE);
         return newCellStyle;
